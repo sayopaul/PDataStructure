@@ -1,0 +1,27 @@
+{
+	"name" : "AnonCoding/PHPDataStructures",
+	"description" : "A Library to extend PHP to use all basic DataStructures (such as ArrayList, LinkedList, HashMap, Tree e.t.c) efficiently",
+	"license" : "",
+	"keywords" : ["DataStructures","ArrayList","LinkedList","Hashmap","Tree"],
+	"authors" : [
+		{
+			"name" : "Karounwi Anuoluwapo",
+			"email" : "segunanu@gmail.com",
+			"role" : "Developer" 
+		},
+		{
+			"name" : "Oseni Adekunle",
+			"email" : "adekunleoseni47@gmail.com",
+			"role" : "Developer"
+		}
+	],
+	"require" : {},
+	"require-dev" : {
+		"phpunit/phpunit" : "4.0.*"
+		},
+	"autoload" : {
+		"psr-4" : {
+			"AnonCoding\\PHPDataStructures\\":"src"
+		}
+	}
+}
